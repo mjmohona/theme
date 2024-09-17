@@ -1,0 +1,35 @@
+[
+    {
+        "theme_name": "",
+        "theme_author": "",
+        "theme_version": "",
+        "theme_documentation_url": "",
+        "theme_support_url": "",
+        "name": "Colors",
+        "settings": [
+            {
+                "type": "color",
+                "id": "bg",
+                "label": "Background color",
+                "default": "#ffffff"
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Text color",
+                "default": "#000000"
+            }
+        ]
+    },
+    {
+        "name": "settings",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "show_search",
+                "label": "show search form",
+                "default": true
+            }
+        ]
+    }
+]
