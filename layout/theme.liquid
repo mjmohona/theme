@@ -1,11 +1,20 @@
+
 <html>
 <head>
     {{ content_for_header }}
     
 </head>
-<body>
+
+<body class="body" >
 {% section 'header' %}
     {{ content_for_layout }}
     
 </body>
 </html>
+
+<style>
+  .body {
+    background-color: {{ settings.background_color }};
+    color: {{ settings.text_color }};
+  }
+</style>
